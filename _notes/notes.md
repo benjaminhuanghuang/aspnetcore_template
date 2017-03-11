@@ -3,6 +3,9 @@
 ## Update
     January 2017 Update for ASP.NET Core 1.1
         Run $ dotnet migrate to convert project.json to .csproj
+    
+    A mapping between project.json and csproj properties
+        https://docs.microsoft.com/en-us/dotnet/articles/core/tools/project-json-to-csproj
 
 ## Support static file
     Modify Startup.cs->Configure()
