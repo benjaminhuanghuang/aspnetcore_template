@@ -24,7 +24,7 @@ namespace AspNetCoreTemplate
             //         return context.Response.WriteAsync("Hello from ASP.NET Core!");
             //     });
 
-            // Enable static file like index.html
+            // Enable static files like index.html
             app.UseStaticFiles();
 
             // Enable Cross Origin Resource Sharing
