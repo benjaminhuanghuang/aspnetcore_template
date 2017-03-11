@@ -24,6 +24,12 @@ namespace AspNetCoreTemplate
             //         return context.Response.WriteAsync("Hello from ASP.NET Core!");
             //     });
 
+            // Enable static file like index.html
+            app.UseStaticFiles();
+
+            // Enable Cross Origin Resource Sharing
+            app.UseCors(builder =>builder.WithOrigins("http://localhost:9000").AllowAnyHeader().AllowAnyMethod());
+
             app.UseMvc(routes =>
             {
                 routes.MapRoute(

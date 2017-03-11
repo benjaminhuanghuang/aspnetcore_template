@@ -15,11 +15,15 @@ ASP.NET Core Project Template
     Startup.cs
     Program.cs           # Entry of asp.net core application
     web.config
-    project.json         # dotnet build need this file
+    project.json         # dotnet build need this file, .NET core 1.1 donot support project.json
     package.json
     bower.json
     appsettings.json
 
+### A mapping between project.json and csproj properties
+    
+    https://docs.microsoft.com/en-us/dotnet/articles/core/tools/project-json-to-csproj
+    run dotnet migrate to covert project.json to csproj 
 
 ## Common Project Structure
 /Project
